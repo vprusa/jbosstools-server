@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JBoss WildFly Management API
 Bundle-SymbolicName: org.jboss.ide.eclipse.as.management.wf11
-Bundle-Version: 3.3.1.qualifier
+Bundle-Version: 3.5.2.qualifier
 Bundle-Activator: org.jboss.ide.eclipse.as.internal.management.wf11.WildFly11ManagementActivator
 Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)",
  org.jboss.ide.eclipse.as.management.core;bundle-version="[3.0.0,4.0.0)"
@@ -11,15 +11,15 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ClassPath: .,
  lib/jboss-dmr-1.4.1.Final.jar,
  lib/jboss-logging-3.3.1.Final.jar,
- lib/jboss-remoting-5.0.0.CR5.jar,
+ lib/jboss-remoting-5.0.5.Final.jar,
  lib/jboss-threads-2.2.1.Final.jar,
- lib/wildfly-client-config-1.0.0.CR3.jar,
- lib/wildfly-common-1.2.0.CR1.jar,
- lib/wildfly-controller-client-3.0.0.Beta30.jar,
- lib/wildfly-elytron-1.1.0.CR4.jar,
- lib/wildfly-protocol-3.0.0.Beta30.jar,
- lib/xnio-api-3.5.0.CR2.jar,
- lib/xnio-nio-3.5.0.CR2.jar
+ lib/wildfly-client-config-1.0.0.Final.jar,
+ lib/wildfly-common-1.2.0.Final.jar,
+ lib/wildfly-controller-client-3.0.8.Final.jar,
+ lib/wildfly-elytron-1.1.6.Final.jar,
+ lib/wildfly-protocol-3.0.8.Final.jar,
+ lib/xnio-api-3.5.4.Final.jar,
+ lib/xnio-nio-3.5.4.Final.jar
 Service-Component: OSGI-INF/*.xml
 Export-Package: org.jboss.ide.eclipse.as.internal.management.wf11;x-friends:="org.jboss.ide.eclipse.as.management.itests"
 Bundle-Vendor: JBoss by Red Hat

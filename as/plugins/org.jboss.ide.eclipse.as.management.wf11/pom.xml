@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.jboss.tools.as</groupId>
 		<artifactId>plugins</artifactId>
-		<version>3.3.1-SNAPSHOT</version>
+		<version>3.5.2-SNAPSHOT</version>
 	</parent>
 	<groupId>org.jboss.tools.as.plugins</groupId>
 	<artifactId>org.jboss.ide.eclipse.as.management.wf11</artifactId> 
@@ -13,17 +13,17 @@
 	<properties>
 	  <jbossdmr.version>1.4.1.Final</jbossdmr.version>
 	  <jboss.logging.version>3.3.1.Final</jboss.logging.version>
-	  <jboss.remoting.version>5.0.0.CR5</jboss.remoting.version>
+	  <jboss.remoting.version>5.0.5.Final</jboss.remoting.version>
 	  <jboss.threads.version>2.2.1.Final</jboss.threads.version>
 
-	  <wildfly.client.config.version>1.0.0.CR3</wildfly.client.config.version>
-	  <wildfly.common.version>1.2.0.CR1</wildfly.common.version>
-	  <wildfly.controller.version>3.0.0.Beta30</wildfly.controller.version>
-	  <wildfly.elytron.version>1.1.0.CR4</wildfly.elytron.version>
-	  <wildfly.protocol.version>3.0.0.Beta30</wildfly.protocol.version>
+	  <wildfly.client.config.version>1.0.0.Final</wildfly.client.config.version>
+	  <wildfly.common.version>1.2.0.Final</wildfly.common.version>
+	  <wildfly.controller.version>3.0.8.Final</wildfly.controller.version>
+	  <wildfly.elytron.version>1.1.6.Final</wildfly.elytron.version>
+	  <wildfly.protocol.version>3.0.8.Final</wildfly.protocol.version>
 
-	  <xnio.api.version>3.5.0.CR2</xnio.api.version>
-	  <xnio.nio.version>3.5.0.CR2</xnio.nio.version>
+	  <xnio.api.version>3.5.4.Final</xnio.api.version>
+	  <xnio.nio.version>3.5.4.Final</xnio.nio.version>
 	</properties>
 	
 	<build>

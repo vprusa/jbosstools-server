@@ -10,7 +10,7 @@
 	<groupId>org.jboss.tools</groupId>
 	<artifactId>jmx</artifactId>
 	<name>jmx.all</name>
-	<version>1.10.1-SNAPSHOT</version>
+	<version>1.10.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>plugins</module>
@@ -18,9 +18,4 @@
 		<module>features</module>
 	</modules>
 
-
-	<properties>
-		<!-- https://issues.jboss.org/browse/JBIDE-23869 -->
-		<enforceExcludePatternExtras>|jolokia.client.version|jolokia.server.version</enforceExcludePatternExtras>
-	</properties>
 </project>
